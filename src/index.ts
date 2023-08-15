@@ -1,1 +1,1 @@
-const hello = () => {}
+const hello = (message: string) => {}

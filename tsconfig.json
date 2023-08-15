@@ -4,6 +4,7 @@
   "_version": "18.1.0",
   "compilerOptions": {
     "lib": ["es2022"],
+    "outDir": "dist",
     "module": "Node16",
     "target": "es2022",
     "strict": true,
