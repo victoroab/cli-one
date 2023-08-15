@@ -1,17 +1,19 @@
 {
   "name": "cli",
   "bin": {
-    "practice": "./index.js"
+    "practice": "./dist/index.js"
   },
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "link-cli": "yarn --global unlink cli && yarn --global link",
     "dev": "tsc -w"
   },
   "author": "OAB",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.5.0",
     "typescript": "^5.1.6"
   }
 }
